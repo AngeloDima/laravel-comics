@@ -1,13 +1,19 @@
 <div class="containerCard-sec">
     <div class="container-card">
 
+    <div class="card">
+        @foreach ($comics as $comic)
 
-    @foreach ($comics as $comic)
-    <div>
-        {{ $comic['title'] }}
+
+
+            <img id="ciao" src="{{ $comic['thumb'] }}" alt="">
+            {{ $comic['title'] }}
+
+
+
+        @endforeach
     </div>
 
-    @endforeach
 
 
     </div>
