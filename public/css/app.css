@@ -110,7 +110,7 @@ p{
     max-height: 80px;
 }
 
-a{
+.info-card a{
     position: relative;
     top: -30px;
     left: 15px;
@@ -120,8 +120,29 @@ a{
 
 .containerFooter1{
     width: 100%;
-    height: 50vh;
-    background-color: grey;
+    height: 60vh;
+    background-image: url(/images/footer-bg.jpg);
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+
+.containerFooter1 img{
+    position: absolute;
+    right: 70px;
+}
+
+.SX{
+    width: 20%;
+    height: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+
+    position: absolute;
+    left: 100px;
+    top: 50px;
 }
 
 .containerFooter2{
@@ -129,4 +150,19 @@ a{
     height: 15vh;
     background-color: rgb(58, 58, 58);
 }
+
+
+.cont1, .cont2, .cont3, .cont4, a{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(170, 170, 170);
+    
+}
+
+.cont1, .cont2, .cont3, .cont4, h3{
+    color: white;
+}
+
 
