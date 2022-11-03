@@ -59,16 +59,17 @@ p{
 }
 .jumbroBG{
     width: 100%;
-    height: 30vh;
-    background-color: rgb(85, 249, 255);
+    height: 45vh;
+    background-image: url("/images/jumbotron.jpg");
+    background-size: cover;
 }.containerCard{
     width: 100%;
     height: 70vh;
     background-color: cadetblue;
 }.containerBanner{
     width: 100%;
-    height: 15vh;
-    background-color: aqua;
+    height: 10vh;
+    background-color: black;
 }.containerFooter1{
     width: 100%;
     height: 50vh;
