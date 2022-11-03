@@ -9,12 +9,24 @@
     <title>Document</title>
 </head>
 <body>
+
+
+
 @include('partials.header')
+
+
+
 
 @include('partials.mainJumbo')
 @include('partials.mainCard')
 @include('partials.mainBanner')
 
+
+
+
 @include('partials.footer')
+
+
+
 </body>
 </html>
