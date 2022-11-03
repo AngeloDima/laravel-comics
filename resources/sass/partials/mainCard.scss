@@ -10,11 +10,22 @@
 .container-card{
     width: 80%;
     height: 80%;
-    background-color: rgb(116, 45, 45);
+
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
 }
 
+.card-file{
+    width: 160px;
+}
 
-img{
-    width: 50px;
+.card-file > img{
+     max-height: 200px;
+}
+
+.tit{
+    width: 160px;
+    color: white;
 }
